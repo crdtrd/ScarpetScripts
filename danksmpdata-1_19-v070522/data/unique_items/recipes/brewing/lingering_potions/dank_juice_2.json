@@ -1,0 +1,59 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "lingering_potion",
+        "data": {
+            "Potion": "minecraft:water"
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:paper",
+        "data": {
+            "display": {
+                "Name": "{\"text\":\"¢100 Dank\",\"color\":\"aqua\",\"italic\":false}"
+            },
+            "CustomModelData": 43
+        }
+    },
+    "result": {
+        "item": "lingering_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Lingering Dank Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 1,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                },
+                {
+                    "Id": 3,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                },
+                {
+                    "Id": 5,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                },
+                {
+                    "Id": 11,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                },
+                {
+                    "Id": 24,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                }
+            ],
+            "CustomPotionColor": 2359429
+        }
+    }
+}

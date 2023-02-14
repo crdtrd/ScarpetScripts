@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dragon_breath"
+        },
+        {
+            "item": "minecraft:lodestone"
+        }
+    ],
+    "result": {
+        "item": "minecraft:player_head",
+        "data": {
+            "display": {
+                "Name": "{\"text\":\"Loaderstone\", \"color\":\"light_purple\", \"italic\":false}",
+                "Lore": [
+                    "{\"text\": \"Loads the chunk\",\"color\": \"gray\"}",
+                    "{\"text\": \"it is placed in\", \"color\": \"gray\"}"
+                ]
+            },
+            "SkullOwner": {
+                "Id": [-1603067143,-88585229,-1777822630,-164656805],
+                "Properties": {
+                    "textures": [
+                        {
+                            "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7ImlkIjoiYmRkNmU1MzM2NDNkNDhmN2E5YWYwNjBkMzFkYmM3NmUiLCJ0eXBlIjoiU0tJTiIsInVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjNjE3ODM1OTBiNmU2ODQ3MzAwNWIzMmVjMGEwOGJjM2I5NWQ2NDkwMzZiMzU4YWZlNzdhZDhhZjg4NDgwMCIsInByb2ZpbGVJZCI6IjgwMThhYjAwYjJhZTQ0Y2FhYzliZjYwZWY5MGY0NWU1IiwidGV4dHVyZUlkIjoiZjJjNjE3ODM1OTBiNmU2ODQ3MzAwNWIzMmVjMGEwOGJjM2I5NWQ2NDkwMzZiMzU4YWZlNzdhZDhhZjg4NDgwMCJ9fSwic2tpbiI6eyJpZCI6ImJkZDZlNTMzNjQzZDQ4ZjdhOWFmMDYwZDMxZGJjNzZlIiwidHlwZSI6IlNLSU4iLCJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YyYzYxNzgzNTkwYjZlNjg0NzMwMDViMzJlYzBhMDhiYzNiOTVkNjQ5MDM2YjM1OGFmZTc3YWQ4YWY4ODQ4MDAiLCJwcm9maWxlSWQiOiI4MDE4YWIwMGIyYWU0NGNhYWM5YmY2MGVmOTBmNDVlNSIsInRleHR1cmVJZCI6ImYyYzYxNzgzNTkwYjZlNjg0NzMwMDViMzJlYzBhMDhiYzNiOTVkNjQ5MDM2YjM1OGFmZTc3YWQ4YWY4ODQ4MDAifSwiY2FwZSI6bnVsbH0="
+                        }
+                    ]
+                }
+            }
+        },
+        "count": 1
+    }
+}

@@ -1,0 +1,1 @@
+give @p minecraft:paper{display:{Name:'{"text":"¢1 Dank","color":"green","italic":false}'},CustomModelData:41b} 1

@@ -1,0 +1,48 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "splash_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Splash Unrefined Fast Syrup",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 25,
+                    "Amplifier": 4,
+                    "Duration": 900
+                }
+            ],
+            "CustomPotionColor": 1522247
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:powder_snow_bucket"
+    },
+    "result": {
+        "item": "splash_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Splash Fast Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 1,
+                    "Amplifier": 4,
+                    "Duration": 6000
+                }
+            ],
+            "CustomPotionColor": 5427711
+        }
+    }
+}

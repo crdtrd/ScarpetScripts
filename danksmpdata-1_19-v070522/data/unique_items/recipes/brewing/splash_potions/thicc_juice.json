@@ -1,0 +1,48 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Thicc Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 11,
+                    "Amplifier": 4,
+                    "Duration": 6000
+                }
+            ],
+            "CustomPotionColor": 16756754
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:gunpowder"
+    },
+    "result": {
+        "item": "splash_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Splash Thicc Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 11,
+                    "Amplifier": 4,
+                    "Duration": 6000
+                }
+            ],
+            "CustomPotionColor": 16756754
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "splash_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Splash Dank Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 1,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 3,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 5,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 11,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 24,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                }
+            ],
+            "CustomPotionColor": 2359429
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:sugar"
+    },
+    "result": {
+        "item": "splash_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Splash Unrefined Fast Syrup",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 25,
+                    "Amplifier": 4,
+                    "Duration": 900
+                }
+            ],
+            "CustomPotionColor": 1522247
+        }
+    }
+}

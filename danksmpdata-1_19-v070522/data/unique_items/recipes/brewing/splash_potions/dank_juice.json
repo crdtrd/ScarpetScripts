@@ -1,0 +1,88 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Dank Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 1,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 3,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 5,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 11,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 24,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                }
+            ],
+            "CustomPotionColor": 2359429
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:gunpowder"
+    },
+    "result": {
+        "item": "splash_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Splash Dank Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 1,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 3,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 5,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 11,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 24,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                }
+            ],
+            "CustomPotionColor": 2359429
+        }
+    }
+}

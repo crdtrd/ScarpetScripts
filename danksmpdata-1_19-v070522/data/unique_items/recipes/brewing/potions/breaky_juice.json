@@ -1,0 +1,48 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Unrefined Breaky Syrup",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 8,
+                    "Amplifier": 68,
+                    "Duration": 200
+                }
+            ],
+            "CustomPotionColor": 493336
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:slime_block"
+    },
+    "result": {
+        "item": "potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Breaky Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 3,
+                    "Amplifier": 4,
+                    "Duration": 6000
+                }
+            ],
+            "CustomPotionColor": 917293
+        }
+    }
+}

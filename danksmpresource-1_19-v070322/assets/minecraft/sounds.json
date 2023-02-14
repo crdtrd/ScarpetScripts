@@ -1,0 +1,11 @@
+{
+	"warp.pipe": {
+		"subtitle": "Warp pipe",
+		"sounds": [
+			{
+				"name": "warp/pipe",
+				"preload": true
+			}
+		]
+	}
+}

@@ -1,0 +1,48 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Unrefined Thicc Syrup",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 18,
+                    "Amplifier": 9,
+                    "Duration": 900
+                }
+            ],
+            "CustomPotionColor": 10054154
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:warped_button"
+    },
+    "result": {
+        "item": "potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Thicc Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 11,
+                    "Amplifier": 4,
+                    "Duration": 6000
+                }
+            ],
+            "CustomPotionColor": 16756754
+        }
+    }
+}

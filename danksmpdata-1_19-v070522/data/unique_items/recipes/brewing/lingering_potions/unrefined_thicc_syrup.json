@@ -1,0 +1,48 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "splash_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Splash Unrefined Thicc Syrup",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 18,
+                    "Amplifier": 9,
+                    "Duration": 900
+                }
+            ],
+            "CustomPotionColor": 10054154
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:dragon_breath"
+    },
+    "result": {
+        "item": "lingering_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Lingering Unrefined Thicc Syrup",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 18,
+                    "Amplifier": 9,
+                    "Duration": 225
+                }
+            ],
+            "CustomPotionColor": 10054154
+        }
+    }
+}

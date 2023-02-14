@@ -1,0 +1,68 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "lingering_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Lingering Dank Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 1,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                },
+                {
+                    "Id": 3,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                },
+                {
+                    "Id": 5,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                },
+                {
+                    "Id": 11,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                },
+                {
+                    "Id": 24,
+                    "Amplifier": 0,
+                    "Duration": 4500
+                }
+            ],
+            "CustomPotionColor": 2359429
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:scute"
+    },
+    "result": {
+        "item": "lingering_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Lingering Unrefined Thicc Syrup",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 18,
+                    "Amplifier": 9,
+                    "Duration": 225
+                }
+            ],
+            "CustomPotionColor": 10054154
+        }
+    }
+}

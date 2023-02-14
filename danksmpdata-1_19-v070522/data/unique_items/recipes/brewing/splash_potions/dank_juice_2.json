@@ -1,0 +1,59 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "splash_potion",
+        "data": {
+            "Potion": "minecraft:water"
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:paper",
+        "data": {
+            "display": {
+                "Name": "{\"text\":\"¢100 Dank\",\"color\":\"aqua\",\"italic\":false}"
+            },
+            "CustomModelData": 43
+        }
+    },
+    "result": {
+        "item": "splash_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Splash Dank Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 1,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 3,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 5,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 11,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                },
+                {
+                    "Id": 24,
+                    "Amplifier": 0,
+                    "Duration": 18000
+                }
+            ],
+            "CustomPotionColor": 2359429
+        }
+    }
+}

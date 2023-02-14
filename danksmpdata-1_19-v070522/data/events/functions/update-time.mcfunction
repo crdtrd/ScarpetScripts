@@ -1,0 +1,1 @@
+execute store result score varTime Time run time query daytime

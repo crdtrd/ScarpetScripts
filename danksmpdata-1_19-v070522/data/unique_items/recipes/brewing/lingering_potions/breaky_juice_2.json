@@ -1,0 +1,48 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "lingering_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Lingering Unrefined Breaky Syrup",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 8,
+                    "Amplifier": 68,
+                    "Duration": 50
+                }
+            ],
+            "CustomPotionColor": 493336
+        }
+    },
+    "ingredient": {
+        "item": "minecraft:slime_block"
+    },
+    "result": {
+        "item": "lingering_potion",
+        "data": {
+            "display": {
+                "Name": {
+                    "text": "Lingering Breaky Juice",
+                    "color": "aqua",
+                    "italic": false,
+                    "nbtcrafting:stringify": true
+                }
+            },
+            "CustomPotionEffects": [
+                {
+                    "Id": 3,
+                    "Amplifier": 4,
+                    "Duration": 1500
+                }
+            ],
+            "CustomPotionColor": 917293
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " nR",
+        "S  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lightning_rod"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "R": {
+            "item": "minecraft:redstone_torch"
+        },
+        "S": {
+            "item": "minecraft:sponge"
+        }
+    },
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "data": {
+            "display": {
+                "Name": "{ \"text\": \"Electric Wrench\", \"color\": \"aqua\", \"italic\": false}",
+                "Lore": [
+                    "{ \"text\": \"Short circuits\", \"color\": \"gray\" }",
+                    "{ \"text\": \"(kicks) afk bots\", \"color\": \"gray\" }"
+                ]
+            },
+            "CustomModelData": 401,
+            "Damage": 0,
+            "ElectricWrench": 1,
+            "Charge": 0
+        },
+        "count": 1
+    }
+}

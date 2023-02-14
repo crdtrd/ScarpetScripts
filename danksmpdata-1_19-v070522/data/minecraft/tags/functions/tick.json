@@ -1,0 +1,12 @@
+{
+
+	"values":[
+		"events:update-time",
+		"events:dealer",
+		"events:golem-borders",
+		"events:anti-hero",
+        "events:unlock-recipes",
+        "events:invis-item-frame-particles"
+		]
+
+}

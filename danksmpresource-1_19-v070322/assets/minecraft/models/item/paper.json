@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+ "overrides":[
+
+     {"predicate": {"custom_model_data":41}, "model":"item/dankbucks/onedank"},
+     {"predicate": {"custom_model_data":42}, "model":"item/dankbucks/tendank"},
+     {"predicate": {"custom_model_data":43}, "model":"item/dankbucks/hundreddank"},
+     {"predicate": {"custom_model_data":44}, "model":"item/dankbucks/thousanddank"}
+
+     ]
+}
